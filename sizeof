@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+#include <ctime>
+#include <cmath>
+#include <cstdlib>
+#include <typeinfo>
+#include <string>
+
+using namespace std;
+
+#include<iostream>
+using namespace std;
+class A
+{
+public:
+    char b;
+    virtual void fun() {};
+    //static int c;
+
+};
+
+int main()
+{
+  
+    cout<<sizeof(A)<<endl;
+    // Answer: 16, if no Char b is 8, if no Virtual fun() is 1,
+    return 0;
+}
